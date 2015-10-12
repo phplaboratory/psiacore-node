@@ -6,7 +6,7 @@ cd "${root_dir}"
 
 tarball_name=`node bin/get-tarball-name.js`
 bucket_name="bitcore-node"
-binary_url="https://${bucket_name}.s3.amazonaws.com/${tarball_name}"
+binary_url="https://${bucket_name}.xs3.amazonaws.com/${tarball_name}"
 
 echo "Downloading binary: ${binary_url}"
 
