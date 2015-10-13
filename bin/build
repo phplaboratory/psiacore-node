@@ -168,4 +168,7 @@ if test x"$1" = x'debug'; then
   debug=--debug
 fi
 
+
+echo "Taras!!!! before build"
+read
 node-gyp ${debug} rebuild
