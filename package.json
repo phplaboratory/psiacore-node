@@ -23,7 +23,8 @@
     "index.js",
     "integration/",
     "lib/",
-    "package.json"
+    "package.json",
+    "PATCH_VERSION"
   ],
 
 
