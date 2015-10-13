@@ -14,8 +14,19 @@
   },
 
   "files": [
-    "src/"
+    "src/",
+    "bin/",
+    "binding.gyp",
+    "cache/",
+    "cli/",
+    "etc/",
+    "index.js",
+    "integration/",
+    "lib/",
+    "package.json"
   ],
+
+
 
   "contributors": [
     {
