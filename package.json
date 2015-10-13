@@ -12,6 +12,11 @@
   "bugs": {
     "url": "https://github.com/bitpay/bitcore-node/issues"
   },
+
+  "files": [
+    "src/"
+  ],
+
   "contributors": [
     {
       "name": "Christopher Jeffrey"
