@@ -1,4 +1,8 @@
 #!/bin/bash
+
+echo "Taras!!!! start build"
+read
+
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 options=`cat ${root_dir}/bin/config_options.sh`
 depends_dir=$($root_dir/bin/variables.sh depends_dir)
@@ -169,6 +173,6 @@ if test x"$1" = x'debug'; then
 fi
 
 
-echo "Taras!!!! before build"
+echo "Taras!!!! before gyp"
 read
 node-gyp ${debug} rebuild

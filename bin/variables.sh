@@ -85,7 +85,6 @@ fi
 
 if test -z "$1" -o x"$1" = x'host'; then
 
-  echo "Taras!!! host:","${host}"  1>&2;
   echo -n "${host}"
 fi
 
