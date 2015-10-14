@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "Taras!!!! before install"
-read
-
-
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 
 cd "${root_dir}"
