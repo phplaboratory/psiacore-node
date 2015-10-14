@@ -7,7 +7,7 @@ var proxyquire = require('proxyquire');
 var index = require('../../');
 var DB = index.services.DB;
 var blockData = require('../data/livenet-345003.json');
-var bitcore = require('bitcore');
+var bitcore = require('psiacore');
 var Networks = bitcore.Networks;
 var Block = bitcore.Block;
 var BufferUtil = bitcore.util.buffer;
@@ -17,7 +17,7 @@ var chainData = require('../data/testnet-blocks.json');
 var errors = index.errors;
 var memdown = require('memdown');
 var levelup = require('levelup');
-var bitcore = require('bitcore');
+var bitcore = require('psiacore');
 var Transaction = bitcore.Transaction;
 
 describe('DB Service', function() {
